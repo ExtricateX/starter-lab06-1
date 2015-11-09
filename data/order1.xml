@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="eatin">
+    <customer>Kevin</customer>
+    <burger>
+        <patty type="beef"/>
+        <cheeses top="blue" bottom="blue"/>
+        <topping type="bacon"/>
+        <sauce type="peanutbutter"/>
+        <sauce type="fksauce"/>
+    </burger>
+    <burger>
+        <patty type="pork"/>
+        <cheeses top="swiss" bottom="gouda"/>
+        <topping type="bacon"/>
+        <sauce type="ketchup"/>
+        <sauce type="mayo"/>
+    </burger>
+    <burger>
+        <patty type="turkey"/>
+        <cheeses top="brie" bottom="swiss"/>
+        <topping type="bacon"/>
+        <sauce type="fksauce"/>
+        <sauce type="ketchup"/>
+    </burger>
+</order>
